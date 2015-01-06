@@ -1,4 +1,4 @@
-# Project Name
+# Fake Agent
 fake-agent is a mobile user-agent spoofer that hashes a string into a mobile agent
 
 ## Installation
