@@ -10,6 +10,10 @@ var hashString = function(str){
 };
 module.exports=function(str){
 	var hash=hashString(str);
-	console.log(hash);
-	return DB[hash%DBCount];
+	return {
+		'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+		'accept-encoding': 'gzip, deflate, sdch',
+	 	'accept-language': 'en-US,en;q=0.8',
+	 	'user-agent': DB[hash%DBCount]
+	};
 };
