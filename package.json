@@ -1,0 +1,24 @@
+{
+  "name": "fake-agent",
+  "version": "1.0.0",
+  "description": "fake-agent is an user agent generator for mobile that hashes an id to an agent.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x4139/fake-agent"
+  },
+  "keywords": [
+    "user-agent",
+    "nodejs",
+    "fake"
+  ],
+  "author": "0x4139@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0x4139/fake-agent/issues"
+  },
+  "homepage": "https://github.com/0x4139/fake-agent"
+}
