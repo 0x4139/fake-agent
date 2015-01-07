@@ -1,6 +1,6 @@
 {
   "name": "fake-agent",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "fake-agent is an user agent generator for mobile that hashes an id to an agent.",
   "main": "index.js",
   "scripts": {
